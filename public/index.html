@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Meanstack</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/ui-grid.min.css">
+    
+</head>
+<body ng-app="myApp" >
+
+    <header ng-include="'views/nav.html'"></header>
+    <div class="container-fluid">
+        <div ui-view="home"></div>
+    </div>
+
+    
+    <script src="js/framework/jquery.js"></script>
+    <script src="js/framework/bootstrap.js"></script>
+    <script src="js/framework/angular.js"></script>
+    <script src="js/framework/angular-ui-router.min.js"></script>
+    <script src="js/framework/ui-grid.min.js"></script>
+    <script src="js/framework/angular-route.js"></script>
+    
+    <script src="https://code.highcharts.com/highcharts.js"></script>
+    <script src="https://code.highcharts.com/maps/modules/map.js"></script>
+    <script src="https://code.highcharts.com/modules/exporting.js"></script>
+    <script src="https://code.highcharts.com/maps/modules/data.js"></script>
+    <script src="https://code.highcharts.com/mapdata/countries/us/us-all.js"></script>
+   <!-- be careful to the sequence-->
+    <script src="js/app.js"></script>
+    <script src="js/service/DBService.js"></script>
+    <script src="js/service/TotalPopService.js"></script>
+    <script src="js/service/ClaimRawDataService.js"></script>
+    
+    
+    <script src="js/controllers/HomeController.js"></script>
+    <script src="js/controllers/HailRawDataController.js"></script>
+    <script src="js/controllers/ClaimRawDataController.js"></script>
+    <script src="js/controllers/RelationController.js"></script>
+    
+    <script src="js/directives/MyDropDown.js"></script>
+    
+    <script src="js/controllers/PopulationAffectedController.js"></script>
+    <script src="js/chart/USMapData.js"></script>
+    <script src="js/chart/DrawCharts.js"></script>
+
+   
+    
+</body>
+</html>

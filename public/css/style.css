@@ -1,0 +1,170 @@
+html {
+  min-height: 100%;
+  height: 100%;
+}
+html body {
+  width: 100%;
+  height: 100%;
+  overfloat: hidden;
+}
+html body .modal-open {
+  position: fixed;
+  overflow: hidden;
+}
+.container-fluid {
+  padding: 0;
+}
+.master {
+  position: fixed;
+  height: 50px;
+}
+.master .navbar {
+  padding: 3px 30px 1px 30px;
+}
+.master .nav-bgcolor {
+  background-color:beige;
+}
+.master .navbar-fixed-top {
+  border-width: 0 0 2px;
+}
+.home-container {
+  position: relative;
+  top: 50px;
+  margin: 0px;
+}
+.sidebar {
+  position: fixed;
+  top: 56px;
+  bottom: 0;
+  left: 0;
+  z-index: 1000;
+  display: block;
+  padding: 0 20px 20px 20px;
+  overflow-x: hidden;
+  overflow-y: auto;
+  background-color: #f5f5f5;
+  border-right: 1px solid #eee;
+}
+.nav-sidebar {
+  margin-right: -21px;
+  margin-bottom: 20px;
+  margin-left: -20px;
+}
+.nav-sidebar > li > a {
+  padding-right: 20px;
+  padding-left: 20px;
+}
+.nav-sidebar > .active > a,
+.nav-sidebar > .active > a:hover,
+.nav-sidebar > .active > a:focus {
+  color: gainsboro;
+  background-color:gray;
+}
+.main {
+  padding: 20px;
+  top: 50px;
+}
+@media (min-width: 768px) {
+  body {
+    width: 100%;
+    overfloat: hidden;
+  }
+  .main {
+    padding-right: 40px;
+    padding-left: 40px;
+    top: 50px;
+  }
+}
+#hail-raw-data {
+  width: 100%;
+  height: 100%;
+}
+#claim-raw-data {
+  margin: 15px;
+}
+#claim-raw-data .top-section {
+  height: 90px;
+  margin: 10px;
+}
+#claim-raw-data .criteria-dropdown {
+  position: relative;
+  left: 380px;
+}
+#claim-raw-data .search-div {
+  position: relative;
+  top: 38px;
+}
+#claim-raw-data .search-div .search-btn {
+  width: 110px;
+  height: 30px;
+}
+#claim-raw-data .ui-grid-viewport {
+  overflow-x: auto !important;
+}
+#claim-raw-data .grid-data {
+  margin: 10px;
+}
+#hail-raw-data-container {
+  margin: 10px;
+}
+#hail-raw-data-container .input-div {
+  padding: 12px 0;
+}
+#hail-raw-data-container .input-search {
+  width: 500px;
+}
+#average-claim-container {
+  margin: 30px;
+}
+
+#average-claim-container .grid-data {
+  margin-top: 50px;
+  height: 250px;
+  width: 30%;
+  
+}
+#average-claim-container #average-claim-chart {
+ position: relative;
+  height: 70%;
+  top: -350px;
+  max-width: 700px;
+  min-width: 400px;
+  margin: 0 auto;
+  left: 130px;
+}
+#population-affected-container {
+  width: 100%;
+  margin: 30px;
+}
+#population-affected-container .grid-section {
+  width: 30%;
+  height: 700px;
+}
+#population-affected-container .map-section {
+  position: relative;
+  height: 70%;
+  top: -700px;
+  max-width: 700px;
+  min-width: 400px;
+  margin: 0 auto;
+  left: 130px;
+}
+#relation-container{
+   width: 100%;
+   margin: 30px; 
+}
+#relation-container .grid-data{
+    margin-top: 50px;
+    height: 250px;
+    width: 32%;
+}
+#relation-container .map-section{
+    position: relative;
+    height: 70%;
+    top: -350px;
+    max-width: 800px;
+    min-width: 400px;
+    margin: 0 auto;
+    left: 200px;
+
+}
