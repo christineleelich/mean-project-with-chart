@@ -25,4 +25,5 @@ Delplyment and Running Envirentment Request:
     Database: mongodb. version 3.x
     Database Driver:mongoose
     Database Data: sample data store on the mlab.com, login lichunhua ps 3440308 to view the data
+    connectionString =  'mongodb://christine:christine@ds021884.mlab.com:21884/lichunhua'
    
