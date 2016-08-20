@@ -20,7 +20,7 @@ Delplyment and Running Envirentment Request:
 
      The application has been deployed on the openshift with the link:http://meanstack-christinelich.rhcloud.com
    
-(4) About the source codes.
+(4) About the source of data.
 
     Database: mongodb. version 3.x
     Database Driver:mongoose
