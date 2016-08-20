@@ -1,4 +1,4 @@
-#Mean Stack application (Mangodb, Angular, Node and HighChart).visit: http://meanstack-christinelich.rhcloud.com
+#Mean Stack application (Mangodb, Angular, Node and HighCharts).visit: http://meanstack-christinelich.rhcloud.com
 
 
 
