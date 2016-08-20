@@ -9,7 +9,7 @@ Delplyment and Running Envirentment Request:
     a) Download from the github website, or
     b) run git command:  git clone https://github.com//jennyleelich/mean-project-with-chart.git
 
-(2) Deployment
+(2) Deployment to local
 
        a) Go to the project folder, run command: npm install
        b) run the node server command, run command: node server
