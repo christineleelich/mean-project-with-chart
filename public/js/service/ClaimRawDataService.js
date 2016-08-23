@@ -1,3 +1,4 @@
+"use strict";
 var app = angular.module('myApp');
 app.service("ClaimRawDataService",['DBService','$q',function(DBService,$q){
     
