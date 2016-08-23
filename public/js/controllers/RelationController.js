@@ -1,3 +1,4 @@
+"use strict";
 var app = angular.module("myApp");
 app.controller('RelationController',['$scope','ChartFactory','ClaimRawDataService','TotalPopService','$filter',function($scope,ChartFactory,ClaimRawDataService,TotalPopService,$filter){
 
