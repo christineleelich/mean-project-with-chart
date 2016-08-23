@@ -1,3 +1,4 @@
+"use strict";
 var app = angular.module('myApp');
 app.controller('PopulationAffectedController',function($scope,DBService,ChartFactory,TotalPopService){
    /* var code=[];
