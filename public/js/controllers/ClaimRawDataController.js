@@ -1,3 +1,4 @@
+"use strict";
 var app = angular.module("myApp");
 app.controller('ClaimRawDataController',['$scope','$filter','ChartFactory','DBService','ClaimRawDataService',function($scope,$filter,ChartFactory,DBService,ClaimRawDataService){
     ClaimRawDataService.requestClaimData()
