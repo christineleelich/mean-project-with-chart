@@ -1,3 +1,4 @@
+"use strict";
 var app = angular.module('myApp');
 app.controller('HailRawDataController',function($scope,$http,$filter,DBService){ 
     //$http.defaults.headers.post["Content-Type"] = "application/x-www-form-urlencoded";
