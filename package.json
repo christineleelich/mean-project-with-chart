@@ -10,12 +10,12 @@
   ],
   "author": {
     "name": "Christinlee",
-    "email": "christine.lee.lich@gmail.com",
-    "url": "http://meanstack-christinelich.rhcloud.com/"
+    "email": "christine.lee.lich@gmail.com"
+   
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/openshift/origin-server"
+    "url": "https://github.com/jennyleelich/angular1-mean-project-with-chart"
   },
   "engines": {
     "node": ">= 0.5.0",
